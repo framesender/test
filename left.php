@@ -1,5 +1,6 @@
 <?php
 
+
 	echo '
 	<div id="leftnavigation">';
 		$popmenu->ShowPopMenu($link, $sublink);
