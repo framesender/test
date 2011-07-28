@@ -1,4 +1,6 @@
 <?
+
+/// slkfdslkjf lkasdjf ls;dakjf ;slag js;lkfj sl;ad jf;lskdjj ;a
 	include_once("cl_contacts.php");
 	
 	$contacts = new cl_contacts();
@@ -14,6 +16,7 @@
 		$count = $contacts->getdriver()->Count();
 		if ($count != 0)
 			{	
+			
 				printf('<form id="group_1" method="POST" name="formnews" action="%s">
 								<table class="tablesorter">
 									<thead>
