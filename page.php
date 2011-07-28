@@ -7,7 +7,7 @@
     	$news->ShowNews($link, $sublink, $news_id, $page);
     	$contacts->ShowData($link);
     	$galleria->ShowGalleryContent($link, $sublink, $page, $next);
-    	
+    	//magic git incorporated
     	$galleria->ShowMainGalleria($link, '8');
     	
     echo '    
