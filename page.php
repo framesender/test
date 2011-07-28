@@ -1,5 +1,6 @@
 <?php
 
+
 	echo '
     <div id="content">';
     	$content->ShowContent($link,$sublink);
