@@ -1,0 +1,127 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * DataTables features
+ */
+
+.dataTables_wrapper {
+	position: relative;
+	min-height: 302px;
+	_height: 302px;
+	clear: both;
+}
+
+.dataTables_processing {
+	position: absolute;
+	top: 39px;
+	left: 50%;
+	width: 500px;
+	margin-left: -260px;
+	padding: 20px;
+	background-color: #EFFFBD;
+	border: 1px solid #E3FE57;
+	text-align: center;
+}
+
+.dataTables_length {
+	width: 40%;
+	float: left;
+}
+
+.dataTables_filter {
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+
+.dataTables_info {
+	width: 60%;
+	float: left;
+}
+
+.dataTables_paginate {
+	width: 44px;
+	_width: 50px;
+	float: right;
+	text-align: right;
+}
+
+/* Pagination nested */
+.paginate_disabled_previous, .paginate_enabled_previous, .paginate_disabled_next, .paginate_enabled_next {
+	height: 19px;
+	width: 19px;
+	margin-left: 3px;
+	float: left;
+}
+
+.paginate_disabled_previous {
+	background-image: url('datatables/images/back_disabled.jpg');
+}
+
+.paginate_enabled_previous {
+	background-image: url('datatables/images/back_enabled.jpg');
+}
+
+.paginate_disabled_next {
+	background-image: url('datatables/images/forward_disabled.jpg');
+}
+
+.paginate_enabled_next {
+	background-image: url('datatables/images/forward_enabled.jpg');
+}
+
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * DataTables display
+ */
+table.display {
+	margin: 0 auto;
+	width: 100%;
+    font-family: Verdana;
+    font-size: 10px;
+}
+
+table.display thead th {
+	padding: 3px 10px;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+	cursor: pointer;
+	_cursor: hand;
+	text-align: center;
+}
+
+table.display tfoot th {
+	padding: 3px 10px;
+	border-top: 1px solid black;
+	font-weight: bold;
+}
+
+table.display tr.heading2 td {
+	border-bottom: 1px solid #aaa;
+	text-align: center;
+}
+
+table.display td {
+	padding: 3px 10px;
+	border-bottom: 1px dotted #aaa;
+}
+
+table.display td.center {
+	text-align: center;
+	border-bottom: 1px dotted #aaa;
+}
+
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * DataTables sorting
+ */
+
+.sorting_asc {
+	background: url('datatables/images/sort_asc.jpg') no-repeat center right;
+}
+
+.sorting_desc {
+	background: url('datatables/images/sort_desc.jpg') no-repeat center right;
+}

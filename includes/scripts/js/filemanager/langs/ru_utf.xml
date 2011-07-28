@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language-pack>
+  <header>
+    <author>M.M.Soft Pictures 20008 (digitals@mail.ru)</author>
+    <version minor="0" major="1" releasedate="2008-03-25" />
+    <description>
+			This is the Russian language pack for the MCFileManager v.1.9.
+		</description>
+  </header>
+  <language code="ru_utf" title="Russian" dir="ltr">
+		<group target="common">
+			<item name="exe">Выполнить фаил</item>
+			<item name="image">Файл Изображения</item>
+			<item name="archive">Сжатый архивный фаил</item>
+			<item name="html">HTML Файл или сценарий</item>
+			<item name="movie">Файл видео</item>
+			<item name="sound">Файл звука</item>
+			<item name="swf">Flash файл</item>
+			<item name="powerpoint">Файл Powerpoint</item>
+			<item name="document">Фаил документ</item>
+			<item name="word">Документ Word</item>
+			<item name="pdf">Файл Adobe Acrobat</item>
+			<item name="excel">Файл Excel</item>
+			<item name="txt">Текстовый файл</item>
+			<item name="xml">Файл XML</item>
+	  	</group>
+
+		<group target="frameset">
+			<item name="title">Moxiecode File Browser</item>
+		</group>
+
+		<group target="filelist">
+			<item name="title">Moxiecode File Browser</item>
+			<item name="filename">Имя файла</item>
+			<item name="size">Размер</item>
+			<item name="modified">Дата изменения</item>
+			<item name="confirm_cut">Уверены ли Вы в том, что хотите прервать/отменять эти файлы?</item>
+			<item name="confirm_copy">Уверены ли Вы в том, что хотите копировать эти файлы?</item>
+			<item name="confirm_paste">Уверены ли Вы в том, что хотите вставить файлы здесь?</item>
+			<item name="confirm_delete">Уверены ли Вы в том, что хотите удалить эти файлы?</item>
+			<item name="confirm_unzip">Уверены ли Вы в том, что хотите распаковать эти файлы?\nЕсли общий размер очень большой, процедура может занять много времени.</item>
+			<item name="zip_removed">Следующие файлы были отменены.</item>
+			<item name="createdir">Создать документ</item>
+			<item name="createdoc">Создать файл</item>
+			<item name="refresh">Обновить</item>
+			<item name="upload">Загрузить новый файл</item>
+			<item name="download">Загружать выбранные файлы</item>
+			<item name="props">Свойства файла/Папки</item>
+			<item name="cut">Вырезать выбранные файлы/Папки</item>
+			<item name="copy">Копировать выбранные файлы/Папки</item>
+			<item name="paste">Вставить выбранные файлы/Папки</item>
+			<item name="delete">Удалить выбранные файлы/Папки</item>
+			<item name="unzip">Распаковать файл</item>
+			<item name="zip">Упаковать выбранные файлы/Папки</item>
+			<item name="imagemanager">Подключить Менеджер Картинок</item>
+			<item name="dir">Директория</item>
+			<item name="parent_dir">Родительская директория</item>
+			<item name="toggle_all">Пометить все</item>
+			<item name="error_exists">Ошибка: Файл/Директория {путь} уже существуют.</item>
+			<item name="error_delete_failed">Ошибка: Нет прав на удаление Файла/Директории.</item>
+			<item name="error_directory_not_empty">Ошибка:  Директория {путь} не могут быть удалена, так как не существует.</item>
+		</group>
+
+		<group target="preview">
+			<item name="title">Информация о файле / Директории</item>
+			<item name="directory_information">Информация о директории</item>
+			<item name="file_information">Информация о файле</item>
+			<item name="creationdate">Дата создания:</item>
+			<item name="modificationdate">Дата изменения:</item>
+			<item name="access">Доступ:</item>
+			<item name="directory">Директория:</item>
+			<item name="subdirectories">Под-директорий:</item>
+			<item name="files">Файлы:</item>
+			<item name="total_file_size">Общий Размер:</item>
+			<item name="filename">Имя файла:</item>
+			<item name="file_size">Размер файла:</item>
+			<item name="file_description">Описание файла:</item>
+			<item name="preview">Пре.Просмотр</item>
+			<item name="no_preview">Просмотр не возможен.</item>
+			<item name="button_select">Выбрать</item>
+			<item name="button_view">Просмотреть</item>
+			<item name="readable">Читаемый</item>
+			<item name="not_readable">Не читаемый</item>
+			<item name="writable">Записываемый</item>
+			<item name="not_writable">Не записываемый</item>
+		</group>
+
+		<group target="fileprops">
+			<item name="title">Свойства Файла/Директории</item>
+			<item name="description">Свойства Файла/Директории</item>
+			<item name="properties_on">Свойства:</item>
+			<item name="name">Имя:</item>
+			<item name="button_save">Сохранить</item>
+			<item name="button_cancel">Отмена</item>
+			<item name="error_exists">Ошибка: Файл/Директория с таким именем существует.</item>
+		</group>
+
+		<group target="createdir">
+			<item name="title">Создать Директорию</item>
+			<item name="description">Вставьте имя директории, которую хоите создать.</item>
+			<item name="template">Шаблон:</item>
+			<item name="select_template">-- Выбор шаблона --</item>
+			<item name="directory_name">Имя Директории:</item>
+			<item name="create_in">Создать в:</item>
+			<item name="button_create">Создать</item>
+			<item name="button_cancel">Отменить</item>
+			<item name="error_missing_name">Ошибка: Вы должны указать имя.</item>
+			<item name="error_invalid_template_selection">Ошибка: Вы должны выбрать шаблон.</item>
+			<item name="error_template_not_found">Ошибка: Выбранный шаблон не был найден.</item>
+			<item name="error_invalid_name">Ошибка: Имя директории неверно.\\nВозможно включает специальные буквы как: :;</item>
+			<item name="error_exists">Ошибка: Директория с таким именем уже существует.</item>
+		</group>
+
+		<group target="createdoc">
+			<item name="title">Создать документ</item>
+			<item name="description">Заполните бланк чтобы создать документ из шаблона.</item>
+			<item name="template">Шаблон:</item>
+			<item name="select_template">-- Шаблон --</item>
+			<item name="required_filename">Вы должны дать имя новому документу.</item>
+			<item name="filename">Имя файла:</item>
+			<item name="title">Заголовок документа:</item>
+			<item name="create_in">Создать в:</item>
+			<item name="button_create">Создать</item>
+			<item name="button_cancel">Отменить</item>
+			<item name="error_missing_document_name">Ошибка: Вы должны указать имя.</item>
+			<item name="error_missing_template_selection">Ошибка: Вы должны выбрать шаблон.</item>
+			<item name="error_missing_template">Ошибка: Выбранный шаблон не был найден.</item>
+			<item name="error_invalid_file_name">Ошибка: Имя директории неверно.\\nВозможно включает специальные буквы как: :;</item>
+			<item name="error_exists">Ошибка: Директория с таким именем уже существует.</item>
+		</group>
+
+		<group target="upload">
+			<item name="title">Загрузка файлов на сервер</item>
+			<item name="description">Ипользуйте бланк чтобы загрузить файлы.</item>
+			<item name="upload_in">Загрузить в:</item>
+			<item name="valid_extensions">Разрешенные Расширения:</item>
+			<item name="max_upload_size">Максимальный размер:</item>
+			<item name="file_to_upload">Загруженные файл(ы):</item>
+			<item name="as_file_name">Имя как есть:</item>
+			<item name="required_filename">Дайте имя файлу, который вы желаете загрузить .</item>
+			<item name="button_upload">Загрузка</item>
+			<item name="button_add_upload">Добавить загрузку</item>
+			<item name="button_cancel">Отмена</item>
+			<item name="error_exists">Ошибка: Загружаемый Файл, с таким именем существует.</item>
+			<item name="error_to_large">Ошибка: Файл, который вы пытаетесь Загрузить, слишком большой.</item>
+			<item name="remove">Удалить</item>
+		</group>
+
+		<group target="unzip">
+			<item name="title">Раcпаковка</item>
+			<item name="description">Выбор архивированного файла, которого вы желаете распаковать.</item>
+			<item name="zipfile_name">Имя файла:</item>
+			<item name="current_folder">Текущая директория:</item>
+			<item name="overwrite_files">Перезаписать файл(ы):</item>
+			<item name="name">Имя</item>
+			<item name="size">Размер</item>
+			<item name="csize">Сжатый Размер</item>
+			<item name="exists">Существующий</item>
+			<item name="status">Статус</item>
+			<item name="created">Создать</item>
+			<item name="button_unzip">Распаковывать</item>
+			<item name="button_cancel">Отменить</item>
+			<item name="button_back">Возврат</item>
+			<item name="button_close">Выход</item>
+			<item name="Accepted">Принять</item>
+			<item name="Denied">Отклонить</item>
+			<item name="Passed">Удачно</item>
+			<item name="Failed">Неудачно</item>
+			<item name="Yes">Да</item>
+			<item name="No">Нет</item>
+		</group>
+
+		<group target="zip">
+			<item name="title">Создать ZIP архив</item>
+			<item name="description">Укажите имя файла ZIP архива, который вы желаете создать.</item>
+			<item name="created_in">Файл ZIP архива будет создан в:</item>
+			<item name="name">Имя:</item>
+			<item name="required_filename">Введите имя файла.</item>
+			<item name="button_create">Создать</item>
+			<item name="button_cancel">Отменить</item>
+		</group>
+ 	</language>
+</language-pack>

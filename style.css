@@ -1,0 +1,285 @@
+@charset "utf-8";
+
+html, body{
+	margin:0;
+	padding:0;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color: #000000;
+	background: #e8e8e8;
+}
+
+img {border:0;}
+
+H1{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:21px;
+	color:#000000;
+	font-weight:normal;
+}
+
+H2{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	color:#000000;
+	font-weight:normal;
+}
+
+textarea {margin:0; padding:0;}
+
+.message_bad {
+	margin: 10px 0;
+	padding:10px 0 10px 7px;
+	width:100%;
+	color:red;
+	font-weight:normal;
+	background:#E0E0E0;
+}
+
+.message_good {
+	margin: 10px 0;
+	padding:10px 0 10px 7px;
+	width:100%;
+	color:green;
+	font-weight:normal;
+	background:#008bd0;
+}
+
+.empty{clear:both;}
+
+#all_site{
+	margin:0 auto;
+	padding:0;
+	width:845px;
+	min-height: 700px;
+	_height: 700px;
+	background:#ffffff;
+}
+
+#header{
+	background:#ffffff;
+	height:115px;
+}
+
+.logo{
+	margin: 10px 0 0 30px;
+	background:url(images/logo_site.jpg) no-repeat;
+	width:112px;
+	height:75px;
+	float:left;
+}
+
+.company_tel{
+	margin: 30px 30px 0 0;
+	float:right;
+	color:#004e74;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	line-height:1.5em;
+}
+
+.company_tel span{
+	color:#004e74;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	font-weight:normal;
+}
+
+#menu {
+		margin: 0;
+        padding: 0;
+		height: 35px;
+		width: 100%;
+		background: #008bd0;
+}
+
+#menu ul {
+        border: 0;
+        margin: 0 0 0 30px;
+        padding: 0;
+        list-style-type: none;
+}
+
+#menu ul li {
+        float: left;
+        padding: 0;
+        margin: 0;
+		display: block;
+}
+
+#menu ul li a {
+        border: 0;
+		padding: 10px 15px 0 15px;
+		margin: 0;
+        color: #ffffff;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        font: 12px Verdana;
+        font-weight: normal;
+		height: 25px;
+}
+
+#menu ul li a:hover {
+        color: #9cd2ed;
+		text-decoration: none;
+}
+
+#menu li#active a{
+        color: #ffffff;
+		text-decoration: none;
+		background: #004e74;
+		padding: 10px 15px 0 15px;
+		margin: 0;
+		height:25px;
+}
+
+#submenu {
+		margin: 0 0 0 12px;
+        padding: 0;
+		width: 100%;
+}
+
+#submenu ul {
+        border: 0;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+}
+
+#submenu ul li {
+        padding: 0;
+        margin: 0;
+		display: block;
+}
+
+#submenu ul li a {
+        border: 0;
+		padding: 0;
+		margin: 15px 0;
+        color: #000000;
+        text-decoration: underline;
+        display: block;
+        text-align: left;
+        font: 12px Verdana;
+        font-weight: normal;
+}
+
+#submenu ul li a:hover {
+        color: #004e74;
+		text-decoration: none;
+}
+
+#submenu li#active {
+        color: #004e74;
+		text-decoration: none;
+		padding: 0;
+		margin: 15px 0;
+}
+
+#leftnavigation{
+	margin:0;
+	padding:0;
+	width:320px;
+}
+
+.navi{
+	margin:20px 0 30px 12px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	color:#000000;
+}
+
+#panelnews{
+	margin:20px 0 30px 12px;
+	padding:0;
+	width: 97%;
+}
+#panelnews .name{
+	margin:20px 0 30px 0;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	color:#000000;
+}
+#panelnews p{
+	margin: 5px 0;
+}
+#news{
+	margin:20px 0;
+	padding:0;
+	width: 100%;
+}
+.news_img{
+	width:110px;
+	height:75px;
+	overflow:hidden;
+}
+a.details, a:visited.details{
+	color: #008bd0;
+	font-size:10px;
+	text-decoration:underline;
+}
+a:hover.details{
+	color: #008bd0;
+	font-size:10px;
+	text-decoration:none;
+}
+
+#content{
+	margin:20px 25px;
+	padding:0;
+}
+
+.line{
+	border-top:1px solid #d0d0d0;
+	margin:30px 0;
+	padding:0;
+	width:100%;
+	height: 1px;
+}
+
+#panelgallery{
+	margin:20px 0 30px 0;
+	padding:15px;
+	background:#e8e7d3;
+}
+
+#navigation{
+	float:right;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	color:#000000;
+}
+#navigation a{
+	color: #008bd0;
+	font-size:10px;
+	text-decoration:underline;
+}
+
+#footer{
+	margin:0;
+	padding:0;
+	background:#d0d0d0;
+	width:100%;
+	height:74px;
+}
+
+.footer_name{
+	float:left;
+	margin: 30px 0 0 30px; 
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#474747;
+}
+
+.footer_site{
+	float:right;
+	margin: 15px 30px 0 0;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#474747;
+	line-height:1.5em;
+}
